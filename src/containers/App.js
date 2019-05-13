@@ -9,11 +9,11 @@ class App extends React.Component {
         this.state = {
             data: [{
                     text: "jeden",
-                    id: 12
+                    id: 121
                 },
                 {
                     text: "dwa",
-                    id: 234
+                    id: 123
                 }
             ],
             title: 'Webpack loaders'
@@ -39,7 +39,7 @@ class App extends React.Component {
 
     render() {
         return ( <div className = {style.TodoApp} >
-            <Title title={this.state.title} numberOfTasks={this.state.data.length} /></div>
+            <Title title={this.state.title} numberTasks={this.state.data.length} /></div>
         );
     }
 }
