@@ -14,9 +14,13 @@ class App extends React.Component {
                 {
                     text: "dwa",
                     id: 123
+                },
+                {
+                    text: "trzy",
+                    id: 545
                 }
             ],
-            title: 'Webpack loaders'
+            title: 'Webpack-loaders , number of tasks in the list '
         };
     }
     addTodo(val) {
